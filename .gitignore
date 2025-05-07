@@ -1,24 +1,69 @@
-# Logs
-logs
-*.log
+# Node.js
+# Ignora la carpeta de dependencias de node
+node_modules/
+
+# Archivos de configuración de npm/yarn/pnpm
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Directorios de construcción (build output)
+dist/
+dist-ssr/
+
+# Archivos temporales generados por herramientas de desarrollo
 *.local
+*.log
+*.tgz
+*.gz
+*.zip
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Directorios de editor y archivos de configuración (evitar que los archivos de configuraciones personales sean enviados al repositorio)
+.vscode/
+.idea/
 .DS_Store
+
+# Archivos de configuración específicos de Windows
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# Archivos temporales del editor (Vim, Emacs, etc.)
 *.sw?
+*~
+*.swo
+*.swn
+
+# Archivos de configuración de entornos de desarrollo
+*.env
+.env.local
+.env.*.local
+
+# Archivos de lock específicos (se pueden descomentar dependiendo de la preferencia en el equipo)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Vite
+# La carpeta de cache y archivos generados por Vite
+/.vite/
+
+# Otros archivos de caché
+.cache/
+
+# Archivos de tests o documentación generados automáticamente
+coverage/
+*.test.js
+*.test.ts
+*.test.vue
+
+# Si estás trabajando con bases de datos locales o archivos de configuración del backend (por ejemplo, sqlite o dump de base de datos)
+*.db
+*.sql
+*.sqlite
+
+# Archivos de personalización específicos de Vue
+.vscode/*
+!.vscode/extensions.json

@@ -30,6 +30,5 @@ const emit = defineEmits(['mesa-seleccionada'])
 function seleccionarMesa(numero) {
   emit('mesa-seleccionada', numero)
   console.log(`Mesa ${numero} seleccionada`)
-  
 }
 </script>
