@@ -29,7 +29,7 @@ db.connect((err) => {
 
 // Rutas
 import productRoutes from './routes/products.js';
-app.use('/api/products', productRoutes);
+app.use('/api/productos', productRoutes);
 
 // Puerto
 const PORT = process.env.PORT || 5000;

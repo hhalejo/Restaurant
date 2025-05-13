@@ -1,0 +1,22 @@
+{
+  "mesa": 2,
+  "orden": [
+    {
+      "product": "Bandeja Paisa",
+      "quantity": 1,
+      "precio": "15000",
+      "total": 15000,
+      "mesa": 2
+    },
+    {
+      "product": "Coca-Cola",
+      "quantity": 1,
+      "precio": "3200",
+      "descripcion": "",
+      "total": 3200,
+      "mesa": 2
+    }
+  ],
+  "total": 18200,
+  "fecha": "2025-05-13T03:22:03.146Z"
+}

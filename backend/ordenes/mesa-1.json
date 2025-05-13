@@ -1,0 +1,14 @@
+{
+  "mesa": 1,
+  "orden": [
+    {
+      "product": "Bandeja Paisa",
+      "quantity": 1,
+      "precio": "15000",
+      "total": 15000,
+      "mesa": 1
+    }
+  ],
+  "total": 15000,
+  "fecha": "2025-05-13T04:06:26.867Z"
+}
