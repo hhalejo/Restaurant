@@ -1,0 +1,15 @@
+{
+  "mesa": 10,
+  "orden": [
+    {
+      "product": "Aguardiente",
+      "quantity": 1,
+      "precio": "110000",
+      "descripcion": "",
+      "total": 110000,
+      "mesa": 10
+    }
+  ],
+  "total": 110000,
+  "fecha": "2025-05-13T03:21:18.154Z"
+}

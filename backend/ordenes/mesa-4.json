@@ -1,0 +1,30 @@
+{
+  "mesa": 4,
+  "orden": [
+    {
+      "product": "cerveza poker",
+      "quantity": 1,
+      "precio": "4000",
+      "descripcion": "",
+      "total": 4000,
+      "mesa": 4
+    },
+    {
+      "product": "Bandeja Paisa",
+      "quantity": 1,
+      "precio": "15000",
+      "total": 15000,
+      "mesa": 4
+    },
+    {
+      "product": "Coca-Cola",
+      "quantity": 4,
+      "precio": "3200",
+      "descripcion": "",
+      "total": 12800,
+      "mesa": 4
+    }
+  ],
+  "total": 31800,
+  "fecha": "2025-05-13T03:20:44.808Z"
+}
